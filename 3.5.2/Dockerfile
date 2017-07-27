@@ -25,6 +25,4 @@ WORKDIR /home/brock
 # Create projects directory under developer's home directory
 RUN mkdir -p /home/brock/projects
 
-# Create Terminal attaches to the container when launched and terminate when the connection terminates
-
 CMD ["/bin/sh"]
