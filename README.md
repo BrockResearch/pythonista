@@ -1,3 +1,3 @@
-# With Pythonista
+# Pythonistic
 
-Pythonista is python development stack that leverages Docker to create a highly portable development environment that just works. Creating and maintaining the exact same development environment across to machines and multiple accounts was a headache I begin learning python. Having watched Jessie Frazelle's Dockercon15 talk on containerizing desktop apps it made perfect sense to run my development environments as container instead of setting up a native host environment.
+Pythonistic is python development stack that leverages Docker to create a highly portable development environment that just works. Creating and maintaining the exact same development environment across to machines and multiple accounts was a headache and impeded my learning python. Having watched Jessie Frazelle's Dockercon15 talk, [Container Hacks and Fun Images](https://www.youtube.com/watch?v=1qlLUf7KtAw), on containerizing desktop apps it made perfect sense to run my development environments as container instead of setting up a native host environment.
