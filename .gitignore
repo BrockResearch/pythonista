@@ -1,0 +1,5 @@
+# Output of documentation
+_book
+*.pdf
+*.epub
+*.mobi
