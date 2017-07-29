@@ -1,3 +1,4 @@
+# Version: 1.0.0
 FROM alpine:3.5
 MAINTAINER Brock Research 
 
