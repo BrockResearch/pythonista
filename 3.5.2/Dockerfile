@@ -17,13 +17,4 @@ RUN pip3 install --upgrade pip==9.0.1
 # Add Virtual Environment to enable project-specific package installations.
 RUN pip install virtualenv==15.1.0
 
-# https://stackoverflow.com/questions/27701930/add-user-to-docker-container
-RUN adduser -s /bin/ash -D brock
-
-USER brock
-WORKDIR /home/brock
-
-# Create projects directory under developer's home directory
-RUN mkdir -p /home/brock/projects
-
 CMD ["/bin/sh"]
