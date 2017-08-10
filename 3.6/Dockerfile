@@ -17,6 +17,9 @@ RUN pip3 install --upgrade pip==9.0.1
 # Add Virtual Environment to enable project-specific package installations.
 RUN pip3 install virtualenv==15.1.0
 
+# Common Tools
+RUN pip3 install cement==2.10.2
+
 # Create projects directory under developer's home directory
 WORKDIR /root
 RUN mkdir -p /root/projects
