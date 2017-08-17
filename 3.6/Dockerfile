@@ -18,7 +18,18 @@ RUN pip3 install --upgrade pip==9.0.1
 RUN pip3 install virtualenv==15.1.0
 
 # Common Tools
+
+## Command Line Framework
 RUN pip3 install cement==2.10.2
+
+## BDD Framework
+RUN pip3 install behave==1.2.5
+
+## Project Scaffolding
+RUN pip3 install pyscaffold==2.5.7
+
+## Web Framework
+RUN pip3 install flask==0.12.2
 
 # Create projects directory under developer's home directory
 WORKDIR /root
