@@ -35,4 +35,6 @@ RUN pip3 install flask==0.12.2
 WORKDIR /root
 RUN mkdir -p /root/projects
 
+ENV PS1="\h:\w\> "
+
 CMD ["/bin/sh"]
