@@ -7,7 +7,7 @@ RUN apk add --no-cache \
 
 RUN apk update
 
-RUN apk add git=2.11.2-r0
+RUN apk add git=2.11.3-r0
 
 RUN apk add python3=3.5.2-r9
 
