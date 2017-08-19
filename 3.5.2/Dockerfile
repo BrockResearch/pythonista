@@ -36,5 +36,6 @@ WORKDIR /root
 RUN mkdir -p /root/projects
 
 ENV PS1="\h:\w\> "
+ENV GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 
 CMD ["/bin/sh"]
