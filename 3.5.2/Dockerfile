@@ -7,6 +7,8 @@ RUN apk add --no-cache \
 
 RUN apk update
 
+RUN apk add vim=8.0.0329-r0
+
 RUN apk add git=2.11.3-r0
 
 RUN apk add python3=3.5.2-r9
@@ -37,5 +39,8 @@ RUN mkdir -p /root/projects
 
 ENV PS1="\h:\w\> "
 ENV GIT_DISCOVERY_ACROSS_FILESYSTEM=1
+
+# Setup VIM Python syntax highlighting
+COPY vimrc /root/.vimrc
 
 CMD ["/bin/sh"]
