@@ -1,15 +1,6 @@
 # Version: 1.0.0
-FROM alpine:3.5
+FROM brockresearch/pinebox:3.5
 MAINTAINER Brock Research 
-
-RUN apk add --no-cache \
-    ca-certificates
-
-RUN apk update
-
-RUN apk add vim=8.0.0329-r0
-
-RUN apk add git=2.11.3-r0
 
 RUN apk add python3=3.5.2-r9
 
@@ -36,9 +27,6 @@ RUN pip install flask==0.12.2
 # Create projects directory under developer's home directory
 WORKDIR /root
 RUN mkdir -p /root/projects
-
-ENV PS1="\h:\w\> "
-ENV GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 
 # Setup VIM Python syntax highlighting
 COPY vimrc /root/.vimrc
