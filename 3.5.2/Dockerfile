@@ -13,7 +13,7 @@ RUN pip install virtualenv==15.1.0
 # Common Tools
 
 ## Command Line Framework
-RUN pip install cement==2.10.2
+RUN pip install click==6.7
 
 ## BDD Framework
 RUN pip install behave==1.2.5

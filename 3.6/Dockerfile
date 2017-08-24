@@ -13,7 +13,7 @@ RUN pip3 install virtualenv==15.1.0
 # Common Tools
 
 ## Command Line Framework
-RUN pip3 install cement==2.10.2
+RUN pip3 install click==6.7
 
 ## BDD Framework
 RUN pip3 install behave==1.2.5
