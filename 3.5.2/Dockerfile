@@ -1,5 +1,5 @@
 # Version: 1.0.0
-FROM brockresearch/python:3.5
+FROM brockresearch/python:3.5.2
 MAINTAINER Brock Research 
 
 # Add Virtual Environment to enable project-specific package installations.
