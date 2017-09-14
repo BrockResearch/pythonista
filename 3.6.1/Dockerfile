@@ -28,6 +28,9 @@ RUN pip3 install flask==0.12.2
 ## YAML Library
 RUN pip3 install pyyaml==3.12
 
+## Library to read and write Excel 2010 xlsx/xlsm files
+RUN pip3 install openpyxl==2.4.8
+
 # Create projects directory under developer's home directory
 WORKDIR /root
 RUN mkdir -p /root/projects
