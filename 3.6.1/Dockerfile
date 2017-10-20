@@ -31,6 +31,9 @@ RUN pip3 install pyyaml==3.12
 ## Library to read and write Excel 2010 xlsx/xlsm files
 RUN pip3 install openpyxl==2.4.8
 
+## Library for pulling data out of HTML and XML files
+RUN pip3 install beautifulsoup4==4.6.0
+
 # Create projects directory under developer's home directory
 WORKDIR /root
 RUN mkdir -p /root/projects
