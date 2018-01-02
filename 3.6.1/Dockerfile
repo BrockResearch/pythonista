@@ -37,6 +37,10 @@ RUN pip3 install beautifulsoup4==4.6.0
 ## Mongodb Driver
 RUN pip3 install pymongo==3.6.0
 
+## Diff JSON and JSON-like structures in Python.
+## https://github.com/ZoomerAnalytics/jsondiff
+RUN pip3 install jsondiff==1.1.1
+
 # Create projects directory under developer's home directory
 WORKDIR /root
 RUN mkdir -p /root/projects
