@@ -34,6 +34,9 @@ RUN pip3 install openpyxl==2.4.8
 ## Library for pulling data out of HTML and XML files
 RUN pip3 install beautifulsoup4==4.6.0
 
+## Mongodb Driver
+RUN pip3 install pymongo==3.6.0
+
 # Create projects directory under developer's home directory
 WORKDIR /root
 RUN mkdir -p /root/projects
